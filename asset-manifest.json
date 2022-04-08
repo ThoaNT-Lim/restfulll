@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ThoaNT-Lim/restfulll/demo/static/css/main.a410e217.css",
+    "main.js": "/ThoaNT-Lim/restfulll/demo/static/js/main.1964e56f.js",
+    "static/js/787.c5930734.chunk.js": "/ThoaNT-Lim/restfulll/demo/static/js/787.c5930734.chunk.js",
+    "index.html": "/ThoaNT-Lim/restfulll/demo/index.html",
+    "main.a410e217.css.map": "/ThoaNT-Lim/restfulll/demo/static/css/main.a410e217.css.map",
+    "main.1964e56f.js.map": "/ThoaNT-Lim/restfulll/demo/static/js/main.1964e56f.js.map",
+    "787.c5930734.chunk.js.map": "/ThoaNT-Lim/restfulll/demo/static/js/787.c5930734.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a410e217.css",
+    "static/js/main.1964e56f.js"
+  ]
+}
