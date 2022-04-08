@@ -26,10 +26,22 @@ const DemoUmiRequest = () => {
         });
     }
 
+    const onCheckCache = () => {
+        request(`${baseUrl}/thoant`, {
+            method: 'get',
+            timeout: 1000,
+            useCache: true,
+            ttl: 3000,
+            maxCache: 0
+        })
+    }
     return <div>
         <h3>Demo Umi-Request</h3>
-        <button onClick={getAll}>Get all</button>
-        <button onClick={onPostData}>Post</button>
+        <div className='wrapper-method'>
+            <button onClick={getAll} >Get</button>
+            <button onClick={onPostData}>Post</button>
+            <button onClick={onCheckCache}>Get (has cache)</button>
+        </div>
 
     </div>
 }

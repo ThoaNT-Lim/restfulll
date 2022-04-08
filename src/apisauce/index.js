@@ -25,8 +25,10 @@ const APISauce = () => {
     }
     return <div>
         <h3>APISauce</h3>
-        <button onClick={getAll}>Get all</button>
-        <button onClick={onPostData}>Post</button>
+        <div className='wrapper-method'>
+            <button onClick={getAll} >Get</button>
+            <button onClick={onPostData}>Post</button>
+        </div>
 
      
     </div>

@@ -54,3 +54,20 @@
 .wrapper-request-response .response {
   width: 50%;
 }
+
+.wrapper-method {
+  display: flex;
+  gap: 8px;
+}
+.wrapper-method button {
+  width: 96px;
+  height: 36px;
+  background: #ffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+}
+.wrapper-method button:hover {
+  background: #3ba8a6;
+  color: #ffff;
+  cursor: pointer;
+}
