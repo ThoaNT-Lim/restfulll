@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin-left: 2rem;
 }
 
 .App-logo {
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.wrapper-request-response {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #c4c4c4;
+  min-height: 60vh;
+  margin-top: 24px;
+  padding-top: 8px;
+}
+.wrapper-request-response .request {
+  width: 50%;
+  border-right: 1px solid #c4c4c4;
+}
+.wrapper-request-response .response {
+  width: 50%;
 }
